@@ -26,13 +26,12 @@ public class JcabiPlayerXMLImporter {
                 playerNode.xpath("Email/text()").get(0),
                 playerNode.xpath("Password/text()").get(0)
             );
-
             players.add(player);
         }
-        
+
         return players;
     }
-    
+
     public static void main(String[] args) throws FileNotFoundException {
         List<Player> players = importPlayers("players.xml");
         for (Player player : players) {

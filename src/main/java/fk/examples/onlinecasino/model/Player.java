@@ -4,6 +4,7 @@ public class Player {
 	private final String id;
 	private String firstName;
 	private String lastName;
+	private String fullName;
 	private int credit;
 	private String email;
 	private String password;
@@ -13,6 +14,7 @@ public class Player {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.fullName = firstName + " " + lastName;
 		this.credit = credit;
 		this.email = email;
 		this.password = password;
@@ -37,6 +39,14 @@ public class Player {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
 	}
 
 	public int getCredit() {
