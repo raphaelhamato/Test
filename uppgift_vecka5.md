@@ -2,7 +2,7 @@
 
 ## **Del 1: Förberedelse och Implementering av Enhetstester**
 
-- **Nytt Krav:** Ett nytt krav har kommit in - Casino tjänsten ska tillåta användare att skicka pengar emellan varandra. Ta hem de senaste ändringar i kodbasen och titta specifikt i `pom.xml` och `src/main/test`. Vilka skillnader kan du se?
+- **Nytt Krav:** Ett nytt krav har kommit in - Casino tjänsten ska tillåta användare att skicka pengar emellan varandra. Ta hem de senaste ändringar i kodbasen och titta specifikt i `pom.xml` och `src/test/java`. Vilka skillnader kan du se?
 
 - **Syfte:** Förstå vad som krävs för att sätta upp test i projekt.
 
